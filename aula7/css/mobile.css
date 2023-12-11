@@ -1,0 +1,14 @@
+
+@media (max-width: 400px) {
+  .menu-lateral-wrap {
+    display: none;
+  }
+
+  .menu-topo-wrap {
+    display: block;
+  }
+  
+  .section-item {
+    margin-left: 0;
+  }
+}

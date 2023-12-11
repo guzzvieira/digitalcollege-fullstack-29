@@ -1,0 +1,41 @@
+.menu-lateral-wrap {
+  width: 200px;
+  height: 100%;
+  background-color: #f2f2f2;
+  position: fixed;
+}
+
+.menu-lateral-wrap .menu-list {
+  list-style: none;
+}
+
+.menu-lateral-wrap .menu-link {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.menu-lateral-wrap .menu-link:hover {
+  background-color: #ccc;
+}
+
+.menu-topo-wrap {
+  padding: 10px;
+  background-color: #f2f2f2;
+  width: 100%;
+  display: none;
+}
+
+.menu-topo-wrap .menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.menu-topo-wrap .menu-link {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.menu-topo-wrap .menu-link:hover {
+  background-color: #ccc;
+}
