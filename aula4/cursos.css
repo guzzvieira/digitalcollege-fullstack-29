@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #111010;
+}
+
+div {
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+ul li {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+ul li span {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+
