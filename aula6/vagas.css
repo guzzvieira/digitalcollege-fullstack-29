@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-full {
+    width: 100%;
+    padding: 5px;
+}
+
+body {
+    background-color: deeppink;
+}
+
+#vagas h2 {
+    text-align: center;
+}
+
+#vagas {
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+#vagas label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#vagas .input-experiencia label:first-child {
+    display: block;
+}
+
+#vagas .input-hard-skills label:first-child {
+    display: block;
+}
+
+#vagas .input-label-block label {
+    display: block;
+}
+
+#vagas .label-button label:nth-child(n+2) {
+    border: 1px deeppink solid;
+    padding: 3px 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#vagas .label-button input:checked + label {
+    background-color: deeppink;
+    color: #fff;
+}
+
+#vagas .label-button input {
+    display: none;
+}
+

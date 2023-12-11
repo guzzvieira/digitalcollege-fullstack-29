@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Vagas
+        </title>
+        <link rel="stylesheet" href="vagas.css">
+    </head>
+    <body>
+        <div id="vagas">
+            <h2>Vagas Fullstack</h2>
+            <form action="" method="GET">
+                
+                <div class="input-nome input-label-block">
+                    <label>Nome</label>
+                    <input type="text" required name="nome" class="input-full" placeholder="Digite seu nome completo">
+                </div>
+                
+                <div class="input-email input-label-block">
+                    <label>Email</label>
+                    <input type="email" required name="email" class="input-full" placeholder="Digite seu melhor email">
+                </div>
+
+                <div class="input-telefone input-label-block">
+                    <label>Telefone</label>
+                    <input type="number" name="telefone" class="input-full" placeholder="Digite seu telefone com DDD">
+                </div>
+
+                <div class="input-experiencia label-button">
+                    <label>Quanto tempo trabalha na área?</label>
+                    
+                    <input type="radio" name="experiencia" id="menos1">
+                    <label for="menos1">Menos de 1 ano</label>
+                    
+                    <input type="radio" name="experiencia" id="mais2">
+                    <label for="mais2">Mais de 2 anos</label>
+
+                    <input type="radio" name="experiencia" id="mais5">
+                    <label for="mais5">Mais de 5 anos</label>
+                </div>
+
+                <div class="input-cargo input-label-block">
+                    <label>Cargo</label>
+                    <select name="cargo" class="input-full">
+                        <option>Fullstack Jr</option>
+                        <option>Fullstack Pl</option>
+                        <option>Fullstack Sr</option>
+                    </select>
+                </div>
+                
+                <div class="input-hard-skills label-button">
+                    <label>Hard Skills</label>
+
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" name="javascript" id="js">
+                    <label for="js">Javascript</label>
+                </div>
+                
+                <div class="input-obs input-label-block">
+                    <label>Observações</label>
+                    <textarea name="obs" class="input-full" placeholder="Coloque aqui suas observações"></textarea>
+                </div>
+
+                <div class="input-cv-pdf input-label-block">
+                    <label>CV PDF</label>
+                    <input type="file" name="curriculo">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
