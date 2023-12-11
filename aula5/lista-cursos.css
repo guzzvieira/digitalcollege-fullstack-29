@@ -1,0 +1,32 @@
+.cursos {
+    list-style: none;
+}
+
+.curso-item {
+    background-color: #000;
+    color: #fff;
+    max-width: 150px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.curso-item:hover .bg-hover {
+    right: 0;
+}
+
+.bg-hover {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: -140px;
+    transition: all 0.3s;
+    z-index: -1;
+}
